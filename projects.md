@@ -13,10 +13,10 @@ Current development sites are listed below. Please Click on the links below to l
   <div class="row">
     <div class="card">
       <div class="col-sm-4">
-        <a href="{{ project.link }}"><img src="/images/{{ project.image }}"></a>
+        <a target="_blank" href="{{ project.link }}"><img src="/images/{{ project.image }}"></a>
       </div>
       <div class="col-sm-8">
-        <h2><a href="{{ project.link }}">{{ project.name }}</a></h2>
+        <h2><a target="_blank" href="{{ project.link }}">{{ project.name }}</a></h2>
         <p>{{ project.description }}</p>
       </div>
     </div>
