@@ -8,6 +8,12 @@ body {
 .container {
   max-width: 858px;
 }
+@media (min-width: 768px) {
+  .container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
 img {
   width: 100%;
   height: auto;
