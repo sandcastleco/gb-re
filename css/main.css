@@ -41,6 +41,8 @@ body {
   font-family: 'Actor', sans-serif;
   font-size: 1em;
   line-height: 1.35;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 p {
   margin-top: 0px;
