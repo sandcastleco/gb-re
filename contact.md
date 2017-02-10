@@ -15,22 +15,6 @@ permalink: /contact
   </div>
   <div class="col-md-8">
     <h1>Send a message</h1>
-    <form action="https://getsimpleform.com/messages?form_api_token=47e7dc45c01976786beff1db3de54152" method="post">
-      <input type='hidden' name='redirect_to' value='http://gb-re.com/thank-you' />
-      <!-- all your input fields here.... -->
-      <div class="form-group">
-        <label class="sr-only" for="name">Your name</label>
-        <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-      </div>
-      <div class="form-group">
-        <label class="sr-only" for="email">Email address</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-      </div>
-      <div class="form-group">
-        <label class="sr-only" for="message">Message</label>
-        <textarea id="message" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
-      </div>
-      <button type="submit" class="btn btn-default">Send</button>
-    </form>
+    {% include contact-form.html %}
   </div>
 </div>
